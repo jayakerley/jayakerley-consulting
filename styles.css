@@ -102,7 +102,7 @@ a{color:inherit; text-decoration:none}
   z-index:1;
 }
 .hero img.bg{
-  position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:75% center;
+  transform: translateX(-8%) scale(1.08);
 }
 .hero-inner{position:relative; z-index:2; padding:7rem 0 4.25rem 0;}
 .kicker{
