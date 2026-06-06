@@ -108,7 +108,7 @@ a{color:inherit; text-decoration:none}
   position:relative;
   z-index:2;
   padding:7rem 0 4.25rem 0;
-  margin-left: 2rem;
+  max-width: 42rem;
 }
 .kicker{
   display:inline-flex; align-items:center; gap:.4rem;
