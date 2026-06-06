@@ -302,15 +302,15 @@ h3{font-size:1.38rem}
     object-position:74% center;
   }
 
-  .hero::before{
-    background:linear-gradient(
-      180deg,
-      rgba(244,237,224,.98) 0%,
-      rgba(244,237,224,.82) 38%,
-      rgba(244,237,224,.52) 70%,
-      rgba(244,237,224,.16) 100%
-    );
-  }
+.hero::before{
+  background:linear-gradient(
+    180deg,
+    rgba(244,237,224,.95) 0%,
+    rgba(244,237,224,.82) 38%,
+    rgba(244,237,224,.42) 70%,
+    rgba(244,237,224,.10) 100%
+  );
+}
 
   .kicker{
     display:none;
