@@ -386,3 +386,20 @@ h1{
   .image-box{height:210px}
   .image-box.tall{height:240px}
 }
+
+.social-links{
+  display:flex;
+  gap:1rem;
+  margin-top:.75rem;
+}
+
+.social-links img{
+  width:24px;
+  height:24px;
+  opacity:.85;
+  transition:.15s ease;
+}
+
+.social-links img:hover{
+  opacity:1;
+}
