@@ -82,7 +82,7 @@ a{color:inherit; text-decoration:none}
 .hero img.bg{
   position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center;
 }
-.hero-inner{position:relative; z-index:2; padding:4.25rem 0}
+.hero-inner{position:relative; z-index:2; padding:7rem 0 4.25rem 0;}
 .kicker{
   display:inline-flex; align-items:center; gap:.4rem;
   border:1px solid rgba(111,113,66,.16); background:rgba(255,255,255,.45);
@@ -92,7 +92,7 @@ a{color:inherit; text-decoration:none}
 h1,h2,h3{
   font-family: Georgia, "Times New Roman", serif; line-height:1.08; margin:0;
 }
-h1{font-size:clamp(2.75rem, 6vw, 5.2rem); max-width:12ch; margin-top:1rem}
+h1{font-size:clamp(2.5rem, 5vw, 4.5rem); max-width:10ch; margin-top:1rem}
 h2{font-size:clamp(2rem, 3vw, 3rem)}
 h3{font-size:1.38rem}
 .lead{font-size:1.1rem; color:#2f2b24; max-width:38rem; margin-top:1.3rem}
