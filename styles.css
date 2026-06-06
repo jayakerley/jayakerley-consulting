@@ -221,8 +221,12 @@ h3{font-size:1.38rem}
   }
 
   .hero img.bg{
-    width:125%;
-    transform:translateX(8%);
+    width:135%;
+    height:100%;
+    left:-8%;
+    transform:none;
+    object-fit:cover;
+    object-position:center;
   }
 
   .grid-2,.grid-3,.grid-4,.split,.subpage-hero .hero-grid,.footer-grid{
@@ -283,6 +287,15 @@ h3{font-size:1.38rem}
 
   .hero-inner{
     padding:1.5rem 0 2.5rem;
+  }
+
+  .hero img.bg{
+    width:175%;
+    height:100%;
+    left:-30%;
+    transform:none;
+    object-fit:cover;
+    object-position:center;
   }
 
   .hero::before{
