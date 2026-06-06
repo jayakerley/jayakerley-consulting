@@ -306,7 +306,7 @@ h3{font-size:1.38rem}
     background:linear-gradient(
       180deg,
       rgba(244,237,224,.98) 0%,
-      rgba(244,237,224,.92) 38%,
+      rgba(244,237,224,.82) 38%,
       rgba(244,237,224,.52) 70%,
       rgba(244,237,224,.16) 100%
     );
@@ -316,10 +316,9 @@ h3{font-size:1.38rem}
     display:none;
   }
 
-  h1{
-    font-size:clamp(2rem, 11vw, 2.8rem);
-    max-width:8ch;
-  }
+h1{
+  font-size:clamp(1.8rem, 10vw, 2.5rem);
+}
 
   .lead{
     font-size:.96rem;
