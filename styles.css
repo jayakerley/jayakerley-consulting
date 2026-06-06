@@ -161,7 +161,10 @@ h3{font-size:1.38rem}
 }
 .image-box{height:240px; overflow:hidden}
 .image-box img{width:100%; height:100%; object-fit:cover}
-.image-box.tall{height:300px}
+.image-box.tall{
+  aspect-ratio: 4 / 3;
+  height:auto;
+}
 .pill{
   display:inline-flex; padding:.3rem .65rem; border-radius:999px; background:rgba(111,113,66,.09); color:var(--sage);
   font-size:.75rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
