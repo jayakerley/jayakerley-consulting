@@ -203,11 +203,33 @@ h3{font-size:1.38rem}
 .subpage-hero .portrait img{width:100%; height:100%; object-fit:cover}
 .page-content{padding:3rem 0 4.5rem}
 .article{
-  background:var(--card); border-radius:2rem; box-shadow:var(--shadow); padding:1.5rem; border:1px solid rgba(36,34,29,.05)
+  background:var(--card);
+  border-radius:2rem;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(36,34,29,.05);
+  overflow:hidden;
 }
-.article + .article{margin-top:1rem}
-.small{font-size:.95rem; color:var(--muted)}
-.hr{height:1px; background:var(--line); margin:1rem 0}
+
+.article + .article{
+  margin-top:1rem;
+}
+
+.article .pad{
+  padding:1rem 1.25rem 1.25rem;
+}
+
+.small{
+  font-size:.95rem;
+  color:var(--muted);
+  line-height:1.55;
+  margin:0;
+}
+
+.hr{
+  height:1px;
+  background:var(--line);
+  margin:1rem 0;
+}
 @media (max-width: 980px){
   .topnav.desktop-nav{display:none}
   .mobile-menu{display:block}
