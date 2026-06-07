@@ -155,6 +155,34 @@ h3{font-size:1.38rem}
 }
 .card .pad{padding:1.2rem}
 .card .meta{display:flex; align-items:center; gap:.8rem; margin-bottom:.8rem}
+.feature-card{
+  background:var(--card);
+  border-radius:2rem;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(36,34,29,.05);
+  overflow:hidden;
+}
+.feature-card .image-box{
+  width:100%;
+  aspect-ratio:4 / 3;
+  height:auto;
+  overflow:hidden;
+}
+.feature-card .image-box img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.feature-card .pad{
+  padding:1rem 1.25rem 1.25rem;
+}
+.feature-card .small{
+  font-size:.95rem;
+  color:var(--muted);
+  line-height:1.55;
+  margin:0;
+}
 .icon-badge{
   width:2.6rem; height:2.6rem; border-radius:999px; display:grid; place-items:center;
   background:#e7dcc7; color:var(--sage)
