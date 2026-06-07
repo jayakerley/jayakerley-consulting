@@ -161,6 +161,7 @@ h3{font-size:1.38rem}
   box-shadow:var(--shadow);
   border:1px solid rgba(36,34,29,.05);
   overflow:hidden;
+  margin-top:1.5rem;
 }
 
 .feature-card .image-box{
