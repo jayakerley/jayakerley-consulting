@@ -379,13 +379,13 @@ h1{
   max-width:12ch;
   line-height:1.02;
 }
-  .lead-wrap{
-    display:inline-block;
-    background:rgba(244,237,224,.82);
-    padding:.45rem .55rem;
-    border-radius:.6rem;
-    max-width:24rem;
-  }
+.lead-wrap{
+  display:inline-block;
+  background:rgba(244,237,224,.82);
+  padding:.45rem .55rem .15rem;
+  border-radius:.6rem;
+  max-width:24rem;
+}
 
   .lead{
     font-size:.96rem;
