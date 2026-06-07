@@ -382,7 +382,7 @@ h1{
 .lead-wrap{
   display:inline-block;
   background:rgba(244,237,224,.82);
-  padding:.45rem .55rem .5rem;
+  padding:.45rem .55rem .2rem;
   border-radius:.6rem;
   max-width:24rem;
 }
