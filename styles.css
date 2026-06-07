@@ -252,7 +252,6 @@ h3{font-size:1.38rem}
   box-shadow:var(--shadow);
   border:1px solid rgba(36,34,29,.05);
   overflow:hidden;
-  padding:1.25rem 1.5rem;
 }
 
 .article + .article{
@@ -452,4 +451,34 @@ h1{
 
   .image-box{height:210px}
   .image-box.tall{height:240px}
+}
+.page-content .article{
+  background:var(--card);
+  border-radius:2rem;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(36,34,29,.05);
+  overflow:hidden;
+  padding:1.25rem 1.5rem;
+}
+
+.page-content .article + .article{
+  margin-top:1rem;
+}
+
+.page-content .article h3{
+  margin:0 0 .75rem;
+}
+
+.page-content .article p{
+  line-height:1.55;
+  margin:0 0 1rem;
+}
+
+.page-content .article p:last-child{
+  margin-bottom:0;
+}
+
+.page-content .small{
+  font-size:.95rem;
+  color:var(--muted);
 }
